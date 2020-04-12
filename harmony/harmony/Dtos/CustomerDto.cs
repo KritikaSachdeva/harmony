@@ -19,7 +19,7 @@ namespace harmony.Dtos
         
         public byte MembershipTypeId { get; set; }
         
-        [MinCustomerAgeRequirement]
+        // [MinCustomerAgeRequirement]
         public DateTime? Birthdate { get; set; }
     }
 }
