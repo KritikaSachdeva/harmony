@@ -22,6 +22,7 @@ namespace harmony.Models
         public byte MembershipTypeId { get; set; }
 
         [Display(Name= "Date of Birth")]
+        [MinCustomerAgeRequirement]
         public DateTime? Birthdate { get; set; }
     }
 }
